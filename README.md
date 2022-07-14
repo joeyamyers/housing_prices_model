@@ -20,7 +20,6 @@ In this step, I handled outliers, replaced missing values, removed columns and a
 ## Preprocess Data
 Most of the preprocessing I had to do was to convert qualitative data into quantitative data. The airport column had YES and NO values, so I converted these values to dummy variables within the column. The waterbody columns had four different values, so I split each values into four columns with dummy variables in each. 
 
-## Univariate Analysis
 ## Correlation Matrix
 Correlation is a statistical measure that expresses the extent to which two variables are linearly related. It quantitfies how much they change togther at a constant rate. I wished to know how the independent variables flucuated with the price variable, so I created a correlation matrix below. <br>
 ![](resources/correlation_matrix.png) <br>
